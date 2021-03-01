@@ -1,0 +1,10 @@
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic21.jpg)<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic22.jpg)<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic23.jpg)<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic24.jpg)<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic25.jpg)<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic26.jpg)<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic27.jpg)<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic28.jpg)<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic29.jpg)<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic30.jpg)<br>
