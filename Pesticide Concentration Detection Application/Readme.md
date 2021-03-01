@@ -8,16 +8,14 @@ A.使用说明<br>
 5.如上4种功能在执行完相应功能后跳转到选取图片功能中，该功能为从相机拍照或相册中得到要预测浓度的图片，并让用户对图片进行裁剪，得到想要预测的颜色部位。<br>
 6.之后可根据先前导入的模型生成浓度分析图片。最后可用分享按钮来将图片分享给他人（如QQ，空间，朋友圈等）<br>
 B.功能简介<br>
-
-
-
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic7.png)<br>
 C.实现思路<br>
 1.登录注册：<br>
 DatabaseHelper中添加链接AS自带数据库以及创建表的语句，用sql语句写登录注册功能的实现，user文件中声明要用到表列名的变量，并添加get方法。<br>
 为注册，登陆功能添加activity。注册功能验证码的验证在code类中。<br>
 2.使用已有模型：<br>
 新用户的已有模型中含有自带训练过的模型数据如下：<br>
-<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic8.png)<br>
 原始数据特征: (90,) 训练数据特征 (62,) 测试数据特征 (28,)<br>
 最佳拟合线,截距 24.883634395270192 回归系数 [-0.28790104]<br>
 该部分是用python来拟合完成的。<br>
@@ -31,8 +29,6 @@ DatabaseHelper中添加链接AS自带数据库以及创建表的语句，用sql�
 只是那个会调用系统相机，函数在startCamera()中。<br>
 5.输入函数参数：<br>
 无须赘述。输入两个参数。然后录到模型文件中。<br>
-<br>
-
 6.生成浓度分析图片<br>
 这个应该是比较麻烦的地方了。使用了大量的安卓的canvas功能。其代码都在drawResult类中。根据模型的数据来绘画其函数线，可靠结果范围，以及预测点位置。<br>
 其中drawGrid(Canvas canvas, Point winSize, Paint paint)，gridPath(int step, Point winSize)，cooPath(Point coo, Point winSize)是来绘画原点坐标以及背景的。<br>
@@ -45,20 +41,8 @@ D.结果展示<br>
 下面是运行截图（运行环境是红米note8pro）<br>
 <br>
 登录与注册：<br>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic9.png)
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic10.png)<br>
 功能选择：<br>                              已有模型：<br>
    
 
