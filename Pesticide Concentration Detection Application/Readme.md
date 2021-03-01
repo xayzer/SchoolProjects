@@ -57,4 +57,4 @@ D.结果展示<br>
 ![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic18.png)<br>
 分享生成结果：<br>
 ![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic19.png)
-![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic120.png)<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic20.png)<br>
