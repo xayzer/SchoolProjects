@@ -43,81 +43,18 @@ D.结果展示<br>
 登录与注册：<br>
 ![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic9.png)
 ![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic10.png)<br>
-功能选择：<br>                              已有模型：<br>
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-输入模型参数：<br>                        训练模型：<br>
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-训练模型：<br>                             输入函数参数：<br>
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-选取测试浓度图片：<br>                      获得浓度分析图：<br>
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+功能选择：                              已有模型：<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic11.png)
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic12.png)<br>
+输入模型参数：                          训练模型：<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic13.png)
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic14.png)<br>
+训练模型：                              输入函数参数：<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic15.png)
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic16.png)<br>
+选取测试浓度图片：                      获得浓度分析图：<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic17.png)
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic18.png)<br>
 分享生成结果：<br>
-      
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic19.png)
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic120.png)<br>
