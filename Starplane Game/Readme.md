@@ -26,3 +26,4 @@
 击杀敌人生成buff<br>
 ![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic5.png)<br>
 游戏结束<br>
+![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic6.png)
