@@ -4,7 +4,10 @@
 ![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic24.jpg)<br>
 ![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic25.jpg)<br>
 ![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic26.jpg)<br>
+运行结果，显示各个阶段生成文件<br>
 ![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic27.jpg)<br>
 ![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic28.jpg)<br>
+下面是数据处理的最终结果：<br>
 ![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic29.jpg)<br>
+生成模型：<br>
 ![image](https://github.com/xayzer/SchoolProjects/blob/main/pics%20for%20readme/pic30.jpg)<br>
