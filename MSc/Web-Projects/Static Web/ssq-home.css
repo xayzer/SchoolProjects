@@ -1,0 +1,28 @@
+section {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color:lightseagreen
+}
+
+.button {
+    font-family: "Lucida Handwriting", cursive;
+    background-color: lightseagreen;
+}
+
+.title {
+    text-align: center;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#front {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
+#mynav {
+    font-family: "Lucida Handwriting", cursive;
+}
