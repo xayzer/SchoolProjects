@@ -1,0 +1,4 @@
+docker build -t ctf21445478 .
+docker load -i ctf21445478.tar
+docker save -o ctf21445478.tar ctf21445478
+docker run -p 8080:3000 --name myapp -d demo/myapp
