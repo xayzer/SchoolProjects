@@ -1,0 +1,124 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: 0px;
+  visibility: hidden;
+}
+
+.app.container {
+  padding: 0;
+}
+
+/* Nav */
+
+.nav-bar-container {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 0) 0%,
+    rgba(240, 240, 240, 0.8) 35%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.brand-text {
+  margin-left: 1rem;
+}
+
+/* Soltuion Card */
+.solution.card {
+  background-color: #f7f7f7;
+  min-height: 600px;
+}
+
+/* Ladning */
+
+.hero-landing.bg {
+  background: url("../img/discover-hong-kong--806x386.jpeg") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-landing .container {
+  padding: 2rem 3rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  animation-duration: 1.3s;
+  animation-name: landing-desktop;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-landing .container {
+    animation-name: landing-mobile-tablet;
+  }
+}
+
+@keyframes landing-mobile-tablet {
+  0% {
+    opacity: 0.6;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes landing-desktop {
+  0% {
+    opacity: 0.6;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+/* Global Warming Chart */
+.globalwarming__chart-bar {
+  fill: rgb(111, 134, 209);
+}
+
+.globalwarming__chart-path--mean {
+  stroke-width: 1px;
+  stroke: red;
+}
+
+div.globalwarming__chart-tooltip {
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 8px;
+  font: 12px sans-serif;
+  background: black;
+  border-radius: 0px;
+  pointer-events: none;
+  color: white;
+}
+
+.globalwarming__chart-x-label--mobile g:nth-child(odd) {
+  opacity: 0;
+}
+
+/* Footer */
+.section.footer {
+  min-height: 12vh;
+}
+
+/* Extreme Weather */
+#extremeweather {
+  background-color: pink;
+}
+
+/* Extreme Weather Chart */
+#extremeweatherchart {
+  background-color: powderblue;
+}

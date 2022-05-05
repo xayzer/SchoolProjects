@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<!-- ATTENTION EVEN THOUGH AFTER THE SUBMISSION THE WEBPAGE CHANGES ALOT BUT ITS STILL AJAX -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+  <title>My Survey</title>
+
+</head>
+
+<body>
+  <section class="section">
+    <h1 class="title is-3">A survey of your favorite cartoon</h1>
+    <form id="mySurvey" action="/surveys" method="post" onsubmit="postData(this);return false;">
+      <!-- Age -->
+      <div class="columns is-multiline">
+        <!-- AGE -->
+        <div class="column card is-full">
+          <h1 class="title is-4">Respondent Age</h1>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input is-success" type="number" min=1 max=99 name="age" required>
+          </div>
+          <canvas id="chart3" hidden></canvas>
+        </div>
+        <!-- CARTOON -->
+        <div class="column card is-full">
+          <h1 class="title is-4">Cartoon Names</h1>
+          <div class="control">
+            <div class="select">
+              <select name="cartoon" onchange="cartoonSelected(this.value)" required>
+                <option value="">Select your favourite cartoon here.</option>
+                <option value="WTP">Winnie-the-Pooh</option>
+                <option value="SP">South Park</option>
+                <option value="FTR">Futurama</option>
+                <option value="TTG">Teen Titans Go</option>
+                <option value="MLP">My Little Pony</option>
+              </select>
+            </div>
+          </div>
+          <canvas id="chart1" hidden></canvas>
+        </div>
+        <!-- CHARACTER -->
+        <div class="column card is-full">
+          <h1 class="title is-4">Favorite Character</h1>
+          <div class="control">
+            <div class="select">
+              <select id="character" name="character" disabled required>
+              </select>
+            </div>
+          </div>
+          <canvas id="chart2" hidden></canvas>
+        </div>
+        <div class="column card is-half">
+          <div class="control">
+            <button type="submit" class="button is-link is-fullwidth">Submit</button>
+          </div>
+        </div>
+        <div class="column card is-half">
+          <div class="control">
+            <button type="reset" class="button is-link is-light is-fullwidth">Cancel</button>
+          </div>
+        </div>
+        <div class="column card is-full">
+          <button id="jump" class="button is-link is-light is-fullwidth" onclick="location.reload()">Return</button>
+        </div>
+      </div>
+    </form>
+
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="text/javascript" src="./javascripts/select_script.js"></script>
+  <script type="text/javascript" src="./javascripts/charts.js"></script>
+  <script type="text/javascript" src="./javascripts/async.js"></script>
+  <script>
+    window.onload = function() {
+      history.replaceState("", "", "./");
+    }
+  </script>
+
+
+</body>
+
+</html>

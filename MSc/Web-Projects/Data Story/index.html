@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/co2.css" />
+    <title>Our Carbon Free City (S1_007)</title>
+  </head>
+
+  <body>
+    <div id="app" class="app container is-fluid">
+      <nav-bar :menu-items="menuItems"></nav-bar>
+      <landing-section></landing-section>
+
+      <globalwarming-section anchor="Global Warming"></globalwarming-section>
+      <globalwarming-section-chart></globalwarming-section-chart>
+
+      <!-- CO2 Emission -->
+      <co2-title anchor="CO2 Emission"></co2-title>
+      <co2-emission></co2-emission>
+
+      <!-- Create an instance of the extremeWeather component -->
+      <extremeweather anchor="Extreme Weather"></extremeweather>
+      <extreme-weather-chart></extreme-weather-chart>
+
+      <solution-section anchor="Solutions"></solution-section>
+
+      <footer-section></footer-section>
+    </div>
+
+    <!-- External Libraries-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.1.1/d3.min.js"></script>
+    <script src="//www.amcharts.com/lib/4/core.js"></script>
+    <script src="//www.amcharts.com/lib/4/charts.js"></script>
+    <script src="//www.amcharts.com/lib/4/themes/animated.js"></script>
+    <script src="https://www.amcharts.com/lib/4/themes/kelly.js"></script>
+
+    <!-- NavBar -->
+    <script src="assets/js/component/NavBar.js"></script>
+    <script src="assets/js/section/LandingSection.js"></script>
+
+    <!-- Global Warming -->
+    <script src="assets/js/section/GlobalWarming.js"></script>
+    <script src="assets/js/section/GlobalWarmingChart.js"></script>
+
+    <!-- CO2 Emission -->
+    <script src="assets\img\svgPaths.js"></script>
+    <script src="assets\js\component\co2Component\CO2Title.js"></script>
+    <script src="assets\js\component\co2Component\CO2Info1.js"></script>
+    <script src="assets\js\component\co2Component\CO2Info2.js"></script>
+    <script src="assets\js\component\co2Component\CO2EmissionChart1.js"></script>
+    <script src="assets\js\component\co2Component\CO2EmissionChart2.js"></script>
+    <script src="assets\js\section\CO2Emission.js"></script>
+
+    <!-- Extreme Weather -->
+    <script src="assets/js/section/ExtremeWeather.js"></script>
+    <script src="assets/js/section/ExtremeWeatherChart.js"></script>
+
+    <!-- Solutions -->
+    <script src="assets/js/section/Solution.js"></script>
+
+    <!-- Footer -->
+    <script src="assets/js/section/Footer.js"></script>
+
+    <script>
+      new Vue({
+        el: "#app",
+        data: {
+          menuItems: [
+            "Global Warming",
+            "CO2 Emission",
+            "Extreme Weather",
+            "Solutions",
+          ],
+        },
+      }); // End Vue
+    </script>
+  </body>
+</html>

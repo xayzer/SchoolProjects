@@ -1,0 +1,17 @@
+FROM python
+COPY main.py /
+COPY load_database.py /
+COPY verify.py /
+COPY serviceAccount.json /
+COPY requirements.txt /
+COPY config.ini /
+COPY server.crt /
+COPY server.key /
+
+RUN pip install pip update
+RUN pip install -r requirements.txt
+
+ENV ACCESS_TOKEN = 5329515911:AAHOfH-Y2fBYu3ojfdyzgjU9vALORfHfmF0
+
+CMD ["main.py"]
+ENTRYPOINT ["python"] 

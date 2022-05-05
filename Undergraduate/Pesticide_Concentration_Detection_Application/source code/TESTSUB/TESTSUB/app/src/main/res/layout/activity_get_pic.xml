@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getPic">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Test"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/startCameraButton"
+        app:layout_constraintLeft_toLeftOf="@id/pictureImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/startCameraButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/startCameraButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拍照获取图片"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@id/choiceFromAlbumButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+    <Button
+        android:id="@+id/choiceFromAlbumButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="从相册选择"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@id/pictureImage"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/startCameraButton" />
+
+    <ImageView
+        android:id="@+id/pictureImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/jp_btn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/choiceFromAlbumButton" />
+
+    <Button
+        android:id="@+id/jp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始浓度分析"
+        android:textSize="30sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pictureImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
